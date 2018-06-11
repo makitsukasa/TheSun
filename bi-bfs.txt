@@ -1,0 +1,6 @@
+RDLURULDLURDLLURRRDLDRULLULD
+I DID IT! 28 moves
+
+real    1m47.755s
+user    0m19.969s
+sys     0m0.031s
