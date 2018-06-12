@@ -315,7 +315,8 @@ phina.define('ResultScene', {
 		}
 
 		this.shareButton.onclick = function() {
-			var text = 'THE・太陽を{0}手で解いた！\n'.format(params.score);
+		    var imgurl = 'https://twitter.com/tsukasa_boxy/status/1006341982040440832/photo/1';
+			var text = 'THE・太陽を{0}手で解いた！\n'.format(params.score) + imgurl;
 			var hashtags = "phina_js"
 			var url = phina.social.Twitter.createURL({
 				text: text,
